@@ -1,6 +1,6 @@
 # Chrome Window Resizer Extensions
 
-Forked from [Lawfully Good Window Resizer](https://github.com/LawfulGood/WindowResizer) and will update functionality and design
+Aww yea!
 
 ### Creators
 
