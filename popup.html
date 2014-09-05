@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chrome Window Resizer</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css"/>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            width: 250px;
+        }
+        .container {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active"><a href="#t1" role="tab" data-toggle="tab">Tab</a></li>
+        <li><a href="#t2" role="tab" data-toggle="tab">Profile</a></li>
+        <li><a href="#t3" role="tab" data-toggle="tab">Messages</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane active" id="t1"> <i class="fa fa-cog"></i> Settings</a>
+            <li><a href="#" class="doit" x="1024" y="768">asas</a></li>
+        </div>
+        <div class="tab-pane" id="t2">2...</div>
+        <div class="tab-pane" id="t3">3...</div>
+    </div>
+</div>
+
+<script src="/assets/js/resizer.js"></script>
+
+</body>
+</html>
